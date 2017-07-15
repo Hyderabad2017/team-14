@@ -29,6 +29,7 @@ $con->query($sql);
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+
       <div class="jumbotron text-center">
   <h1>DREAM LIFE SKILLS ASSESSMENT SCALE</h1>
   </div>
