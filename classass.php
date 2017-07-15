@@ -1,5 +1,5 @@
 
-<html>
+<html manifest="offline.manifest">
 <head>
 <title>Student inventory</title>
 <link rel="stylesheet" type="text/css" href="style2.css" />
