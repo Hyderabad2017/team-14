@@ -36,91 +36,91 @@
       <tr>
         <td>IO Interacting with others</td>
         <td><div class="radio">
-  <label><input type="radio" name="option1">1</label>
+  <label><input type="radio" name="option">1</label>
 </div></td>
         <td><div class="radio">
-  <label><input type="radio" name="option2">2</label>
+  <label><input type="radio" name="option">2</label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option3">3</label>
+  <label><input type="radio" name="option">3</label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option4">4</label>
+  <label><input type="radio" name="option">4</label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option5">5</label>
+  <label><input type="radio" name="option">5</label>
 </div></td>
       </tr>
       <tr>
         <td>DP Overcoming difficulties and solving problems</td>
         <td><div class="radio">
-  <label><input type="radio" name="option1">1</label>
+  <label><input type="radio" name="option">1</label>
 </div></td>
         <td><div class="radio">
-  <label><input type="radio" name="option2">2</label>
+  <label><input type="radio" name="option">2</label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option3">3</label>
+  <label><input type="radio" name="option">3</label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option4">4</label>
+  <label><input type="radio" name="option">4</label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option5">5</label>
+  <label><input type="radio" name="option">5</label>
 </div></td>
       </tr>
       <tr>
         <td>TL Taking initiative</td>
         <td><div class="radio">
-  <label><input type="radio" name="option1">1</label>
+  <label><input type="radio" name="option">1</label>
 </div></td>
         <td><div class="radio">
-  <label><input type="radio" name="option2">2</label>
+  <label><input type="radio" name="option">2</label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option3">3</label>
+  <label><input type="radio" name="option">3</label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option4">4</label>
+  <label><input type="radio" name="option">4</label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option5">5</label>
+  <label><input type="radio" name="option">5</label>
 </div></td>
       </tr>
 	  <tr>
         <td>MC Managing conflict</td>
         <td><div class="radio">
-  <label><input type="radio" name="option1">1</label>
+  <label><input type="radio" name="option">1</label>
 </div></td>
         <td><div class="radio">
-  <label><input type="radio" name="option2">2</label>
+  <label><input type="radio" name="option">2</label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option3">3</label>
+  <label><input type="radio" name="option">3</label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option4">4</label>
+  <label><input type="radio" name="option">4</label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option5">5</label>
+  <label><input type="radio" name="option">5</label>
 </div></td>
       </tr>
 	  <tr>
         <td>UL understanding and following instructions</td>
         <td><div class="radio">
-  <label><input type="radio" name="option1">1</label>
+  <label><input type="radio" name="option">1</label>
 </div></td>
         <td><div class="radio">
-  <label><input type="radio" name="option2">2</label>
+  <label><input type="radio" name="option">2</label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option3">3</label>
+  <label><input type="radio" name="option">3</label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option4">4</label>
+  <label><input type="radio" name="option">4</label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option5">5</label>
+  <label><input type="radio" name="option">5</label>
 </div></td>
       </tr>
     </tbody>
