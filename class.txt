@@ -1,0 +1,10 @@
+<html>
+<body>
+
+<form action="">1.Students enjoy their schoolwork in my class.  <input type="radio" name="q1" value="yes"> Yes<br>
+  <input type="radio" name="q1" value="no"> No<br>
+</form>
+
+
+</body>
+</html>
