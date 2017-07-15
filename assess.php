@@ -19,66 +19,114 @@
       <div class="jumbotron text-center">
   <h1>DREAM LIFE SKILLS ASSESSMENT SCALE</h1>
   </div>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-2 col-xs-offset-2">
-      
-      <p>Does not net do</p>
-      
-    </div>
-    <div class="col-sm-2">
-     
-      <p>Does with lots of help</p>
-    
-    </div>
-    <div class="col-sm-2">
-      
-      <p>Does with some help</p>
-      
-    </div>
-	 <div class="col-sm-2">
-      
-      <p>Does with a little help</p>
-      
-    </div>
-	 <div class="col-sm-2">
-      
-      <p>Does indepndently</p>
-      
-    </div>
-  </div>
+
+	 <div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>    </th>
+        <th>Does not yet do</th>
+        <th>Does with lots of help</th>
+		<th>Does with some help</th>
+		<th>Does with little help</th>
+		<th>Does independently</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>IO Interacting with others</td>
+        <td><div class="radio">
+  <label><input type="radio" name="option1">1</label>
+</div></td>
+        <td><div class="radio">
+  <label><input type="radio" name="option2">2</label>
+</div></td>
+<td><div class="radio">
+  <label><input type="radio" name="option3">3</label>
+</div></td>
+<td><div class="radio">
+  <label><input type="radio" name="option4">4</label>
+</div></td>
+<td><div class="radio">
+  <label><input type="radio" name="option5">5</label>
+</div></td>
+      </tr>
+      <tr>
+        <td>DP Overcoming difficulties and solving problems</td>
+        <td><div class="radio">
+  <label><input type="radio" name="option1">1</label>
+</div></td>
+        <td><div class="radio">
+  <label><input type="radio" name="option2">2</label>
+</div></td>
+<td><div class="radio">
+  <label><input type="radio" name="option3">3</label>
+</div></td>
+<td><div class="radio">
+  <label><input type="radio" name="option4">4</label>
+</div></td>
+<td><div class="radio">
+  <label><input type="radio" name="option5">5</label>
+</div></td>
+      </tr>
+      <tr>
+        <td>TL Taking initiative</td>
+        <td><div class="radio">
+  <label><input type="radio" name="option1">1</label>
+</div></td>
+        <td><div class="radio">
+  <label><input type="radio" name="option2">2</label>
+</div></td>
+<td><div class="radio">
+  <label><input type="radio" name="option3">3</label>
+</div></td>
+<td><div class="radio">
+  <label><input type="radio" name="option4">4</label>
+</div></td>
+<td><div class="radio">
+  <label><input type="radio" name="option5">5</label>
+</div></td>
+      </tr>
+	  <tr>
+        <td>MC Managing conflict</td>
+        <td><div class="radio">
+  <label><input type="radio" name="option1">1</label>
+</div></td>
+        <td><div class="radio">
+  <label><input type="radio" name="option2">2</label>
+</div></td>
+<td><div class="radio">
+  <label><input type="radio" name="option3">3</label>
+</div></td>
+<td><div class="radio">
+  <label><input type="radio" name="option4">4</label>
+</div></td>
+<td><div class="radio">
+  <label><input type="radio" name="option5">5</label>
+</div></td>
+      </tr>
+	  <tr>
+        <td>UL understanding and following instructions</td>
+        <td><div class="radio">
+  <label><input type="radio" name="option1">1</label>
+</div></td>
+        <td><div class="radio">
+  <label><input type="radio" name="option2">2</label>
+</div></td>
+<td><div class="radio">
+  <label><input type="radio" name="option3">3</label>
+</div></td>
+<td><div class="radio">
+  <label><input type="radio" name="option4">4</label>
+</div></td>
+<td><div class="radio">
+  <label><input type="radio" name="option5">5</label>
+</div></td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-<div class="row">
 
-<div class="col-xs-2">
-
-   <p>IO Interacting with each other</p>
-   </div>
-   </div>
-   <div class="row">
-<div class="col-xs-2">
-
-   <p>DP Overcoming difficulties and solving problems</p>
-   </div>
-   </div>
-   <div class="row">
-<div class="col-xs-2">
-
-   <p>TL Taking initiative</p>
-   </div>
-   </div>
-   <div class="row">
-<div class="col-xs-2">
-
-   <p>MC Managing Conflict</p>
-   </div>
-   </div>
-   <div class="row">
-<div class="col-xs-2">
-
-   <p>UL Understanding and following insttructions</p>
-   </div>
-
-   </div>
+  
 	   </body>
 	   </html>
