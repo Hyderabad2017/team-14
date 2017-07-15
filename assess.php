@@ -123,10 +123,18 @@
   <label><input type="radio" name="option5">5</label>
 </div></td>
       </tr>
+	  <tr>
+	  <td>Comments</td>
+	  <td><textarea class="form-control" id="comment" col-xs-10></textarea></td>
+	  
+	  </tr>
     </tbody>
   </table>
 </div>
-
-  
+<div class="container">
+<div class="col-xs-6">
+ <button type="button" class="btn btn-info">save and continue</button>
+</div>
+</div>  
 	   </body>
 	   </html>
