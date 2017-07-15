@@ -1,0 +1,12 @@
+.first {
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+	text-align:right;
+}
+#head{
+	color:Blue;
+	position:center;
+	
+}
