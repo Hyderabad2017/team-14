@@ -49,7 +49,7 @@
   </div>
 </div>
 <div class="row">
-<<<<<<< HEAD
+
 <div class="col-xs-2">
 
    <p>IO Interacting with each other</p>
@@ -78,9 +78,7 @@
 
    <p>UL Understanding and following insttructions</p>
    </div>
-=======
-   <h2>IO</h2>
->>>>>>> d187a8271300840f2d01fb04e91b33a48fef54e0
+
    </div>
 	   </body>
 	   </html>
