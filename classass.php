@@ -34,9 +34,9 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 @$y=$_POST['q25'];
 
 if(@$_POST['submit'])
-{
- $s="insert into asses(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25) values('$a','$b','$c','$d','$e','$f','$g','$h','$i','$j','$k','$l','$m','$n','$o','$p','$q','$r','$s','$t','$u','$v','$w','$x','$y')";
-
+{ 
+ $s="insert into asses(`1`,`2`,`3`,`4`,`5`,`6`,`7`,`8`,`9`,`10`,`11`,`12`,`13`,`14`,`15`,`16`,`17`,`18`,`19`,`20`,`21`,`22`,`23`,`24`,`25`) values($a,$b,$c,$d,$e,$f,$g,$h,$i,$j,$k,$l,$m,$n,$o,$p,$q,$r,$s,$t,$u,$v,$w,$x,$y);";
+echo $s;
 $conn->query($s);
 }
 ?> 
@@ -58,8 +58,10 @@ $conn->query($s);
   
   </div>
    <div class="container">
+  
   <table class="table">
 <table>
+ <form action="classass.php" method="post">
 <thead>
       <tr>
         <th>    </th>
@@ -176,7 +178,7 @@ $conn->query($s);
 <tr>
 <td>18. Some students always try to do their work better than the others.
 </td>
-<td><input type="radio" name="q18" value="3> </td>
+<td><input type="radio" name="q18" value="3"> </td>
  <td><input type="radio" name="q18" value="1"> <br></td>
 </tr>
 <tr>
@@ -224,7 +226,7 @@ $conn->query($s);
 <tr><td><input type="submit" name="submit" value="Submit"/></td></tr>
 
 </table>
-
+</form>
 
 </body>
 </html>
