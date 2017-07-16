@@ -51,91 +51,91 @@ $con->query($sql);
       <tr>
         <td>IO Interacting with others</td>
         <td><div class="radio">
-  <label><input type="radio" name="option1" value="1">1</label>
+  <label><input type="radio" name="option1" value="1"></label>
 </div></td>
         <td><div class="radio">
-  <label><input type="radio" name="option1" value="2">2</label>
+  <label><input type="radio" name="option1" value="2"></label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option1" value="3">3</label>
+  <label><input type="radio" name="option1" value="3"></label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option1" value="4">4</label>
+  <label><input type="radio" name="option1" value="4"></label>
 </div></td>
 <td><div class="radio"
-  <label><input type="radio" name="option1" value="5">5</label>
+  <label><input type="radio" name="option1" value="5"></label>
 </div></td>
       </tr>
       <tr>
         <td>DP Overcoming difficulties and solving problems</td>
         <td><div class="radio">
-  <label><input type="radio" name="option2">1</label>
+  <label><input type="radio" name="option2"></label>
 </div></td>
         <td><div class="radio">
-  <label><input type="radio" name="option2">2</label>
+  <label><input type="radio" name="option2"></label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option2">3</label>
+  <label><input type="radio" name="option2"></label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option2">4</label>
+  <label><input type="radio" name="option2"></label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option2">5</label>
+  <label><input type="radio" name="option2"></label>
 </div></td>
       </tr>
       <tr>
         <td>TL Taking initiative</td>
         <td><div class="radio">
-  <label><input type="radio" name="option3">1</label>
+  <label><input type="radio" name="option3"></label>
 </div></td>
         <td><div class="radio">
-  <label><input type="radio" name="option3">2</label>
+  <label><input type="radio" name="option3"></label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option3">3</label>
+  <label><input type="radio" name="option3"></label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option3">4</label>
+  <label><input type="radio" name="option3"></label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option3">5</label>
+  <label><input type="radio" name="option3"></label>
 </div></td>
       </tr>
 	  <tr>
         <td>MC Managing conflict</td>
         <td><div class="radio">
-  <label><input type="radio" name="option4">1</label>
+  <label><input type="radio" name="option4"></label>
 </div></td>
         <td><div class="radio">
-  <label><input type="radio" name="option4">2</label>
+  <label><input type="radio" name="option4"></label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option4">3</label>
+  <label><input type="radio" name="option4"></label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option4">4</label>
+  <label><input type="radio" name="option4"></label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option4">5</label>
+  <label><input type="radio" name="option4"></label>
 </div></td>
       </tr>
 	  <tr>
         <td>UL understanding and following instructions</td>
         <td><div class="radio">
-  <label><input type="radio" name="option5">1</label>
+  <label><input type="radio" name="option5"></label>
 </div></td>
         <td><div class="radio">
-  <label><input type="radio" name="option5">2</label>
+  <label><input type="radio" name="option5"></label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option5">3</label>
+  <label><input type="radio" name="option5"></label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option5">4</label>
+  <label><input type="radio" name="option5"></label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option5">5</label>
+  <label><input type="radio" name="option5"></label>
 </div></td>
       </tr>
 	  <tr>
