@@ -1,25 +1,4 @@
-<?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "cfg14";
 
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-@$a=$_POST['option1'];
-@$b=$_POST['option2'];
-@$c=$_POST['option3'];
-@$d=$_POST['option4'];
-@$e=$_POST['option5'];
-
-if(@$_POST['submit'])
-{
- $s="insert into asses(one,two,three,four,five) values('$a','$b','$c','$d','$e')";
-
-$conn->query($s);
-}
-?> 
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -30,12 +9,12 @@ $conn->query($s);
 	<div id="header">
 		<div>
 			<div id="logo">
-				<a href="#">Learning Curve</a>
+				<a href="student_details.php">Learning Curve</a>
 			</div>
 			<div id="navigation">
 				<ul>
 					<li class="selected">
-						<a href="loginpage.php">Home</a>
+						<a href="index.php">LOGOUT</a>
 					</li>
 				</ul>
 			</div>
@@ -47,7 +26,9 @@ $conn->query($s);
   </div>
 
 	 <div class="container">
-         <form action="student_details.php" method="post">
+
+         <form action="validateass.php" method="post">
+
   <table class="table">
     <thead>
       <tr>

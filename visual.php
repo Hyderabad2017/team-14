@@ -15,25 +15,22 @@
  google.setOnLoadCallback(drawChart);
  function drawChart() {
  var data = google.visualization.arrayToDataTable([
-
- ['Date', 'Present Date'],
- <?php 
- $query = "SELECT count(ip) AS count, vdate FROM ip GROUP BY vdate";
+     ['Date', 'IO', 'DP', 'TL', 'MC','UL'],
+ 
+     
+     <?php 
+ $query = "SELECT count(ip) AS count, vdate, brower, country, tid,last FROM ip GROUP BY vdate ORDER BY vdate";
 
  $exec = mysqli_query($con,$query);
  while($row = mysqli_fetch_array($exec)){
-
- echo "['".$row['vdate']."',".$row['count']."],";
+//  echo "['" . $row['vdate'] . "'," . $row['count'] . ", " . $row['brower'] . ", " . $row['country'] . ", " . $row['tid'] . "],";
+      echo "['" . $row['vdate'] . "'," . $row['count'] . ", " . $row['brower'] . ", " . $row['country'] . ", " . $row['tid'] . "," . $row['last'] . "],";
  }
  ?>
- 
  ]);
 
  var options = {
- title: 'Date wise visits',   legend: { position: 'top', maxLines: 3 },     bar: { groupWidth: '75%' }, vAxis: {
-            minValue: 0,
-            ticks: [1,2, 3, 4, 5]
-          }
+ title: 'Date wise visits'
  };
  var chart = new google.visualization.ColumnChart(document.getElementById("columnchart"));
  chart.draw(data, options);
@@ -41,10 +38,7 @@
  </script>
 </head>
 <body>
- <h3>Post Training</h3>
- <div id="columnchart" style="width: 700px; height: 400px;"></div>
-
-
+ <h3>Progress</h3>
+ <div id="columnchart" style="width: 900px; height: 500px;"></div>
 </body>
-    
 </html>

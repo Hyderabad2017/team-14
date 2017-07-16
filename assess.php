@@ -1,4 +1,17 @@
+<?php
+ $con= mysqli_connect('localhost', 'root', '', 'cfg14')
+                or die(mysqli_error($con));
+ @$a=$_POST['option1'];
+ @$b=$_POST['option2'];
+ @$d=$_POST['option4'];
+ @$e=$_POST['option5'];
+ if(@$_POST['save and continue']){
+  $sql="insert into radio(IO,DP,TL,MC,UL) values('$a','$b','$c','$d','$e')";
+$con->query($sql);
+ }
+  ?>
 <!DOCTYPE html>
+
 <!--[if lt IE 7 ]> <html lang="en" class="ie6 ielt8"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="ie7 ielt8"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
@@ -16,10 +29,12 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+
       <div class="jumbotron text-center">
   <h1>DREAM LIFE SKILLS ASSESSMENT SCALE</h1>
   </div>
 
+   <form method="POST" action="assess.php">  		 
 	 <div class="container">
   <table class="table">
     <thead>
@@ -36,19 +51,19 @@
       <tr>
         <td>IO Interacting with others</td>
         <td><div class="radio">
-  <label><input type="radio" name="option1">1</label>
+  <label><input type="radio" name="option1" value="1">1</label>
 </div></td>
         <td><div class="radio">
-  <label><input type="radio" name="option1">2</label>
+  <label><input type="radio" name="option1" value="2">2</label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option1">3</label>
+  <label><input type="radio" name="option1" value="3">3</label>
 </div></td>
 <td><div class="radio">
-  <label><input type="radio" name="option1">4</label>
+  <label><input type="radio" name="option1" value="4">4</label>
 </div></td>
-<td><div class="radio">
-  <label><input type="radio" name="option1">5</label>
+<td><div class="radio"
+  <label><input type="radio" name="option1" value="5">5</label>
 </div></td>
       </tr>
       <tr>
@@ -135,6 +150,8 @@
 <div class="col-xs-6">
  <button type="button" class="btn btn-info">save and continue</button>
 </div>
-</div>  
+</div> 
+</form>
+
 	   </body>
 	   </html>

@@ -1,6 +1,6 @@
 <?php session_start();
 require_once 'dbcon.php';
-$teache= 1;
+
 ?>
 <html>
 <head>
@@ -17,7 +17,7 @@ $teache= 1;
 			<div id="navigation">
                 <ul>
                     <li>
-                        <a href="logout.php">Log out</a>
+                        <a href="index.php">Log out</a>
                     </li>
                 </ul>
             </div>			
@@ -84,10 +84,12 @@ else
     </form>
    
 <form action="assesment.php" method="post">
-<input class="button button-submit" type="submit" value="View Assesment">
+<input class="button button-submit" name=""  type="submit" value="View Assesment">
 </form>
-
-<form action="frame.html" method="post">
+<form action="classass.php" method="post">
+<input class="button button-submit" type="submit" value="Student Assesment">
+</form>
+<form action="visual.php" method="post">
 <input class="button button-submit" type="submit" value="View Progress">
 </form><td></table>
 </div>

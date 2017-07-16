@@ -35,6 +35,7 @@ $password = "";
 $dbname = "cfg14";
 
 $stid=$_POST['fname'];
+    $_SESSION['student']=$stid;
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
